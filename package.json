@@ -1,0 +1,51 @@
+{
+  "name": "qrbtf",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.2.4",
+    "@testing-library/react": "^18.2.2",
+    "@testing-library/user-event": "^14.5.2",
+    "jsqr": "^1.4.1",
+    "medium-zoom": "^1.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.2",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.3.1",
+    "react-github-btn": "^1.4.0",
+    "react-indiana-drag-scroll": "^2.2.1",
+    "react-lazy-load": "^4.0.1",
+    "react-redux": "^9.1.0",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "serialize-javascript": "^6.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start start",
+    "build": "react-scripts --openssl-legacy-provider start build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "reactcss": "^1.2.3",
+    "redux-devtools": "^3.5.0",
+    "tcb-js-sdk": "^1.10.10"
+  }
+}
